@@ -1,0 +1,38 @@
+<script type="text/javascript">
+        $(function(){
+          SyntaxHighlighter.all();
+        });
+        $(window).load(function(){
+          $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider){
+              $('body').removeClass('loading');
+            }
+          });
+        });
+    </script>
+
+
+footer
+
+
+ <script type="text/javascript" src="<?php echo base_url()?>assets/site/assets/slider/js/wow.min.js"></script>
+    <script>
+      wow = new WOW(
+        {
+          boxClass:     'wow',      // default
+          animateClass: 'animated', // default
+          offset:       0  ,        // default
+        }
+      )
+      wow.init();
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide",
+          start: function(slider) {
+            $('body').removeClass('loading');
+          }
+        });
+      });
+
+    </script>

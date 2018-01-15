@@ -1,0 +1,189 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.headertop{
+  width: 100%;
+  float: left;
+  background-color: #000;
+  color:#fff;
+  padding-top:6px;
+}
+.headertop a{
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a{
+  padding:15px 45px;
+  border-right:1px solid #ebebeb;
+}
+.navbar-default{
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+/*hero image*/
+.hero{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.hero img{
+  height:auto;
+  width: 100%;
+}
+.hero-caption h2{
+  float: left;
+  padding: 20px 15px;
+  border-right:3px solid #ff0000;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 5px;
+}
+.hero-caption h4{
+  float: left;
+  padding: 10px 15px;
+  color: #fff;
+  position: absolute;
+  top: 46%;
+  left: 52%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 5px;
+}
+
+/*intro*/
+.intro{
+  text-align: center;
+  background-color: #ebebeb;
+  padding:50px 0 60px 0;
+  color:#333;
+}
+.more{
+  border:1px solid #333;
+  padding:10px 15px;
+  background-color: transparent;
+  margin-top: 20px;
+  color: #333;  
+  border-radius: 25px;
+}
+.intro-content p{
+  line-height: 25px;
+  text-align: center;
+}
+@-webkit-keyframes wow {
+    from {background-color: #F6821D;}
+    to {background-color: #001D47;}
+}
+.border-underline{
+    border-top: 2px solid red;
+    width: 7%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+/*what we do*/
+
+.title-job{
+  padding: 50px 0;
+}
+.job-content{
+  text-align: center;
+}
+.job-image, .reason-image{
+  padding: 25px 0;
+}
+
+/*why we do*/
+.work-reason{
+  text-align: center;
+  background-color: #ebebeb;
+  padding: 50px 0 60px 0;
+  color: #333;
+}
+
+/*partners*/
+
+.partners{
+  text-align: center;
+  padding: 50px 0;
+}
+.partners-image{
+  max-width: 100px;
+  margin: 0 auto;
+}
+.partners-image img{
+  width: 100%;
+}
+
+/*footer*/
+.footer{
+  background-color: #202935;
+  padding:50px 0;
+}
+.useful-link h4{
+  color:#F6821F;
+}
+.useful-link ul {
+  list-style-type: none;
+}
+.useful-link ul li a{
+  color:#fff;
+}
+.useful-link ul li a:hover{
+  text-decoration: none;
+}
+.handy{
+  text-align: center;
+}
+.handy h2{
+  color: #F6821F;
+  margin-top: 0;
+}
+.handy p{
+  color: #fff;
+}
+.newsletter h4{
+  color: #F6821F;
+  float: right;
+}
+.newsletter form{
+  float: right;
+  text-align: right;
+  width: 100%;
+}
+.newsletter p{
+  color:#fff;
+  float: right;
+  text-align: right;
+  width: 100%;
+  margin-top:10px;
+}
+.socialmedia{
+  text-align: center;
+}
+.socialmedia i{
+  color: #fff;
+}
+.socialmedia a:hover i{
+  color: #fff;
+  font-size: 20px;
+}
+.copyright{
+  background-color: #1C242F;
+  color: #fff;
+  padding:20px 0;
+}
+
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.background-text h1{
+  display: none;
+}
+}
